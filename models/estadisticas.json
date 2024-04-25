@@ -1,0 +1,22 @@
+[
+    {
+        "mes": "ENERO",
+        "cantidad_inmuebles": 20,
+        "total_ventas": 40000000
+    },
+    {
+        "mes": "FEBRERO",
+        "cantidad_inmuebles": 30,
+        "total_ventas": 40000000
+    },
+    {
+        "mes": "MARZO",
+        "cantidad_inmuebles": 30,
+        "total_ventas": 40000000
+    },
+    {
+        "mes": "ABRIL",
+        "cantidad_inmuebles": 50,
+        "total_ventas": 40000000
+    }
+]

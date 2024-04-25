@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "email": "abc123@example.com",
+        "password": "$2a$10$wPqzNYKz1wKx3Xo0ns8bnOusYGLlOrRTWb8R0UBj.lTxp.8KNz1bi",
+        "passwordDesencriptado": "abc123"
+    },
+    {
+        "id": 2,
+        "email": "123abc@example.com",
+        "password": "$2a$10$oMCEGZwVP.ujL88AA.awMug8LOzo2IyaDrQ9/9UjkwVPLj7ZRpSdi",
+        "passwordDesencriptado": "123abc"
+    },
+    {
+        "id": 3,
+        "email": "def456@example.com",
+        "password": "$2a$10$xw55CgAka9pkVotXWnGYju/CwJtrxGyecWzugv8sKdfhUE.ij.nWW",
+        "passwordDesencriptado": "def456"
+    }
+]

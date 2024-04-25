@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "descripcion": "Tranvía Estación San José",
+        "latitud": "6.2474338",
+        "longitud": "-75.5657115"
+    },
+    {
+        "id": 2,
+        "descripcion": "Avenida Oriental",
+        "latitud": "6.2478264",
+        "longitud": "-75.5658181"
+    },
+    {
+        "id": 3,
+        "descripcion": "Estación de Policía Oriental",
+        "latitud": "6.2467831",
+        "longitud": "-75.5657442"
+    }
+]
