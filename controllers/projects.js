@@ -38,7 +38,37 @@ const projectsPost = (req, res) => {
 
 }
 
+const projectsPut = (req, res) => {            
+    
+
+    const {id, descripcion, latitud, longitud} = req.body;
+
+    const locations = projectsData;
+
+    const locationUpdates = {
+        id,
+        descripcion,
+        latitud,
+        longitud
+    };
+
+    const index = projectsData.findIndex(u => u.id === id);
+
+    if (index === -1) {
+        return res.status(404).send({ message: 'Location not found' });
+    }
+
+    // Actualizar el elemento
+    locations[index] = {...projectsData[index], ...locationUpdates};
+    
+    fs.writeFileSync(projectsDataPath, JSON.stringify(locations, null, 2));
+
+    res.status(201).send({ msg: 'Localización actualizada con exito!', locations });
+    
+}
+
 module.exports = {
     projectsGet,
-    projectsPost
+    projectsPost,
+    projectsPut
 }
