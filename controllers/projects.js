@@ -38,8 +38,7 @@ const projectsPost = (req, res) => {
 
 }
 
-const projectsPut = (req, res) => {            
-    
+const projectsPut = (req, res) => {
 
     const {id, descripcion, latitud, longitud} = req.body;
 
@@ -64,7 +63,7 @@ const projectsPut = (req, res) => {
     fs.writeFileSync(projectsDataPath, JSON.stringify(locations, null, 2));
 
     res.status(201).send({ msg: 'Localización actualizada con exito!', locations });
-    
+
 }
 
 module.exports = {
