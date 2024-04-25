@@ -13,6 +13,32 @@ const projectsGet = (req, res = response) => {
     });
 }
 
+const projectsPost = (req, res) => {            
+
+    const id = projectsData.length + 1;
+
+    const {descripcion, latitud, longitud} = req.body;
+
+    const locations = projectsData;
+
+    const newLocation = {
+        id,
+        descripcion,
+        latitud,
+        longitud
+    };
+
+    // Añadir el nuevo ítem
+    locations.push(newLocation);
+
+    // Escribir el array actualizado de vuelta al archivo JSON
+    fs.writeFileSync(projectsDataPath, JSON.stringify(locations, null, 2));
+
+    res.status(201).send({ msg: 'Localización registrada con exito!', newLocation });
+
+}
+
 module.exports = {
-    projectsGet
+    projectsGet,
+    projectsPost
 }
