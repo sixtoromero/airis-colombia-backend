@@ -4,9 +4,7 @@ const fs = require('fs');
 const path = require('path');  // Importar el módulo path
 
 
-const Usuario = require('../models/usuario');
-
-const userDataPath = path.join(__dirname, '../models/usuario.json');
+const userDataPath = path.join(__dirname, '../data/users.json');
 const userData = JSON.parse(fs.readFileSync(userDataPath, 'utf8'));
 
 const validarJWT = async( req = request, res = response, next ) => {

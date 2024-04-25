@@ -5,7 +5,7 @@ const path = require('path');  // Importar el módulo path
 const { generarJWT } = require("../helpers/generarJWT");
 
 // Resolviendo la ruta de forma segura
-const userDataPath = path.join(__dirname, '../models/usuario.json');
+const userDataPath = path.join(__dirname, '../data/users.json');
 
 const userData = JSON.parse(fs.readFileSync(userDataPath, 'utf8'));
 
