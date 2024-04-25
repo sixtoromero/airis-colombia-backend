@@ -2,7 +2,7 @@ const express = require('express')
 var cors = require('cors')
 
 class Server {
-
+    
     constructor(){
         this.app = express()
         this.port = process.env.PORT || 3000;        
@@ -20,8 +20,14 @@ class Server {
     }
 
     middlewares(){
+        
         //Cors
-        this.app.use(cors())
+        this.app.use(cors({
+            origin: "*",
+            methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+            preflightContinue: false,
+            optionsSuccessStatus: 204
+        }));
         //Parseo y lectura del body
         this.app.use(express.json());
         //Directorio público

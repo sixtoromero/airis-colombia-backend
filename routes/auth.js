@@ -16,8 +16,7 @@ router.post('/login', [
 router.post('/create',[
     check('email', 'El correo es obligatorio').isEmail(),
     check('password', 'La contraseña es obligatorio').not().isEmpty(),
-    validarCampos,
-    validarJWT
+    validarCampos
 ], authPost);
 
 module.exports = router;

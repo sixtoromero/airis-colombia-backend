@@ -23,5 +23,40 @@
     "id": 5,
     "email": "deniluz@gmail.com",
     "password": "$2a$10$rKbH6mQWx9td2Tf3tAm2L.Rh.LwMxd.VHma1OEwVtS7DVjm3wAUiO"
+  },
+  {
+    "id": 6,
+    "email": "otrouser@gmail.com",
+    "password": "$2a$10$/IVBl19dPc.8gvZ2gy4DLufqS739j5eQoo5tonyfEkKfRHMCfO1KS"
+  },
+  {
+    "id": 7,
+    "email": "otrouser2@gmail.com",
+    "password": "$2a$10$n6YUt2k5T/esXHqxh.PGEOlfcH55EAca1lns0rU/iFw6VNu8JoTqm"
+  },
+  {
+    "id": 8,
+    "email": "otrouser3@gmail.com",
+    "password": "$2a$10$6N4JTkppRZzvD6AtyZMU0O3IUn.4DvfPet6GlF6tx9IfSQ2cbcqHq"
+  },
+  {
+    "id": 9,
+    "email": "test01@gmail.com",
+    "password": "$2a$10$jzsVI7yxPtTB6aPrt.qlAONu6jS2gLDq..cmAFqXJt/B9.wo52xbq"
+  },
+  {
+    "id": 10,
+    "email": "bin@gmail.com",
+    "password": "$2a$10$rs1psmSJYkeQeQjwbvPtxeoPm5VZ6.x.zvdxue9lZ4sXC5/Y5m.1."
+  },
+  {
+    "id": 11,
+    "email": "pedropablo@gmail.com",
+    "password": "$2a$10$Q74KhQ6NNW9XiZJceexo/uPkVf9oLG1vEaLlzgLgt005idaW36wIm"
+  },
+  {
+    "id": 12,
+    "email": "belindadelcarmen@gmail.com",
+    "password": "$2a$10$o2t2Jhq0NTno1g8g9IXFxOuzilntvfXT.akH0QyelgB21tZ7hyeP6"
   }
 ]
