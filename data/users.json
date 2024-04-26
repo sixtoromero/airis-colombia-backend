@@ -58,5 +58,15 @@
     "id": 12,
     "email": "belindadelcarmen@gmail.com",
     "password": "$2a$10$o2t2Jhq0NTno1g8g9IXFxOuzilntvfXT.akH0QyelgB21tZ7hyeP6"
+  },
+  {
+    "id": 13,
+    "email": "vallenato@gmail.com",
+    "password": "$2a$10$SEj9qmP/vxMr9H4nx3ULW.5UUn244Canv9IvB9M6HefeCQ5x9MxbC"
+  },
+  {
+    "id": 14,
+    "email": "calyjuan@gmail.com",
+    "password": "$2a$10$t7lBNTz0AOtiFcDVNIEQL..UmZnRwjRSEKvAsRpTLR6AC188Gddk2"
   }
 ]
