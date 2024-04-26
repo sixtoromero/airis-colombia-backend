@@ -2,25 +2,55 @@
   {
     "id": 1,
     "descripcion": "Tranvía Estación San José",
-    "latitud": "6.2474338",
-    "longitud": "-75.5657115"
+    "latitud": 6.2474338,
+    "longitud": -75.5657115
   },
   {
     "id": 2,
     "descripcion": "Avenida Oriental",
-    "latitud": "6.2478264",
-    "longitud": "-75.5658181"
+    "latitud": 6.2478264,
+    "longitud": -75.5658181
   },
   {
     "id": 3,
     "descripcion": "Estación de Policía Oriental",
-    "latitud": "6.2467831",
-    "longitud": "-75.5657442"
+    "latitud": 6.2467831,
+    "longitud": -75.5657442
   },
   {
     "id": 4,
     "descripcion": "Edificio Médico",
-    "latitud": "6.2482693",
-    "longitud": "-75.5653044"
+    "latitud": 6.2482693,
+    "longitud": -75.5653044
+  },
+  {
+    "id": 5,
+    "descripcion": "Casa de mi negra",
+    "latitud": 7.5967654592786715,
+    "longitud": -74.80165078328055
+  },
+  {
+    "id": 6,
+    "descripcion": "Donde Alicia",
+    "latitud": 7.60387185476965,
+    "longitud": -74.81018653479849
+  },
+  {
+    "id": 7,
+    "descripcion": "Cancha Polideportivo",
+    "latitud": 7.593482858649779,
+    "longitud": -74.80234840325532
+  },
+  {
+    "id": 8,
+    "descripcion": "Aeropuerto el tomín",
+    "latitud": 7.596674457702974,
+    "longitud": -74.8091026639822
+  },
+  {
+    "id": 9,
+    "descripcion": "Las Brisas",
+    "latitud": 7.58644623828792,
+    "longitud": -74.79394072737492
   }
 ]
