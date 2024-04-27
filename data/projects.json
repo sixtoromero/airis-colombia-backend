@@ -52,5 +52,17 @@
     "descripcion": "Las Brisas",
     "latitud": 7.58644623828792,
     "longitud": -74.79394072737492
+  },
+  {
+    "id": 10,
+    "descripcion": "Laguna",
+    "latitud": 7.602893979668295,
+    "longitud": -74.79317365859951
+  },
+  {
+    "id": 11,
+    "descripcion": "El Progreso",
+    "latitud": 7.598423266667581,
+    "longitud": -74.79428564253386
   }
 ]

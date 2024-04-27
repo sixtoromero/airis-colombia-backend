@@ -68,5 +68,10 @@
     "id": 14,
     "email": "calyjuan@gmail.com",
     "password": "$2a$10$t7lBNTz0AOtiFcDVNIEQL..UmZnRwjRSEKvAsRpTLR6AC188Gddk2"
+  },
+  {
+    "id": 15,
+    "email": "airis@gmail.com",
+    "password": "$2a$10$swpZV.9Dsoj1zzsjqjRvlOP.cwfD3VBfUN3xdySGKEOmHlKmJWg4u"
   }
 ]

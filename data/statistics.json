@@ -18,5 +18,15 @@
         "mes": "ABRIL",
         "cantidad_inmuebles": 50,
         "total_ventas": 40000000
+    },
+    {
+        "mes": "MAYO",
+        "cantidad_inmuebles": 50,
+        "total_ventas": 40000000
+    },
+    {
+        "mes": "JUNIO",
+        "cantidad_inmuebles": 50,
+        "total_ventas": 40000000
     }
 ]
