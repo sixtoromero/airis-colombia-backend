@@ -64,5 +64,23 @@
     "descripcion": "El Progreso",
     "latitud": 7.598423266667581,
     "longitud": -74.79428564253386
+  },
+  {
+    "id": 12,
+    "descripcion": "Base Militar",
+    "latitud": 7.590210114071326,
+    "longitud": -74.80754967622269
+  },
+  {
+    "id": 13,
+    "descripcion": "El puente",
+    "latitud": 7.57388479682335,
+    "longitud": -74.80074257419054
+  },
+  {
+    "id": 14,
+    "descripcion": "Parroquia el Divino Niño",
+    "latitud": 7.594713739392034,
+    "longitud": -74.79927472234749
   }
 ]

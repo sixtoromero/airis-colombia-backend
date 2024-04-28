@@ -6,8 +6,7 @@ class Server {
     constructor(){
         this.app = express()
         this.port = process.env.PORT || 3000;        
-
-        this.usuariosPath = '/api/users';
+        
         this.authPath = '/api/auth';
         this.projectsPath = '/api/projects';
         this.statisticsPath = '/api/statistics';
@@ -35,8 +34,7 @@ class Server {
     }
 
     routes() {
-        this.app.use(this.authPath, require('../routes/auth'));
-        this.app.use(this.usuariosPath, require('../routes/users'));
+        this.app.use(this.authPath, require('../routes/auth'));        
         this.app.use(this.projectsPath, require('../routes/projects'));
         this.app.use(this.statisticsPath, require('../routes/statistics'));
     }
